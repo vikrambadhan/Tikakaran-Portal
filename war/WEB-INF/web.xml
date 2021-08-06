@@ -1,0 +1,24 @@
+<web-app>
+	<servlet>
+		<servlet-name>Tikakarannew</servlet-name>
+		<servlet-class>com.tikakaran.controller.SignupController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Tikakarannew</servlet-name>
+		<url-pattern>/tikakaransignup</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Tikakarannew1</servlet-name>
+		<servlet-class>com.tikakaran.controller.LoginController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Tikakarannew1</servlet-name>
+		<url-pattern>/tikakaranlogin</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
